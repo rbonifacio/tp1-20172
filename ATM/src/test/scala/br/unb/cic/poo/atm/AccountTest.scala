@@ -8,15 +8,13 @@ class AccountTest extends FunSuite {
 
   test("valor de saque invalido") {
     val account = new Account("abc", 10)
-    try {
-      account.withdraw(20)
-      println("nao deveria passar aqui!")
-      fail()
+
+    val balance =   account.withdraw(20)
+    balance match {
+      case None => succeed
+      case Some(v) => fail("nao esperando um valor")
     }
-    catch {
-      case ex: InvalidAmountException => succeed
-      case ex: Exception => fail
-    }
+
   }
 
 }

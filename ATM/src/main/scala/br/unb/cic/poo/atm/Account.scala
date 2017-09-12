@@ -22,20 +22,22 @@ class Account(private val name: String, protected var balance : Double = 0.0) {
     balance = balance + amount
   }
 
-  @throws[InvalidAmountException]
-  def withdraw(amount : Double) : Unit = {
+  def withdraw(amount : Double) : Option[Double] = {
     if(amount > 0 && amount <= balance) {
       balance = balance - amount
+      return Some(balance)
     }
     else {
-      throw new InvalidAmountException
+      None
     }
   }
 
-  @throws[InvalidAmountException]
-  def transferAmount(c: Account, amount: Double): Unit = {
-    this.withdraw(amount)
-    c.deposit(amount)
+  def transferAmount(c: Account, amount: Double): Option[Double] = {
+    this.withdraw(amount) match {
+      case None     => None
+      case Some(v)  => c.deposit(amount); return Some(v)
+    }
+
   }
 
   /**

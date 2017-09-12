@@ -35,8 +35,8 @@
       <file leaf-file-name="Account.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/Account.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="44">
+              <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
       <file leaf-file-name="AccountTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/br/unb/cic/poo/atm/AccountTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="185">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#28#56#0" expanded="true" />
               </folding>
@@ -81,13 +81,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/SpecialAccount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/GoldAccount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/AccountDB.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/Account.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/SpecialAccount.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/br/unb/cic/poo/atm/AccountTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/Account.scala" />
       </list>
     </option>
   </component>
@@ -386,20 +386,11 @@
       <workItem from="1503751650429" duration="857000" />
       <workItem from="1504011726054" duration="58000" />
       <workItem from="1504620538913" duration="1501000" />
-      <workItem from="1505224780858" duration="437000" />
+      <workItem from="1505224780858" duration="1337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest - 2017.09.05 at 11h 13m 03s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2017.09.05 at 11h 17m 30s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2017.09.05 at 11h 18m 41s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="AccountTest - 2017.09.05 at 11h 22m 17s.xml">
       <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -418,9 +409,21 @@
     <history-entry file="AccountTest - 2017.09.05 at 11h 31m 09s.xml">
       <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="AccountTest - 2017.09.12 at 11h 12m 54s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2017.09.12 at 11h 13m 29s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2017.09.12 at 11h 18m 00s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2017.09.12 at 11h 18m 15s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15025000" />
+    <option name="totallyTimeSpent" value="15925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="800" height="600" extended-state="0" />
@@ -428,13 +431,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49818182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49818182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -452,7 +456,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -573,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/SpecialAccount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -588,10 +584,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/SpecialAccount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/br/unb/cic/poo/atm/AccountTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="185">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#28#56#0" expanded="true" />
           </folding>
@@ -600,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/br/unb/cic/poo/atm/Account.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="44">
+          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
           <folding />
         </state>
       </provider>
